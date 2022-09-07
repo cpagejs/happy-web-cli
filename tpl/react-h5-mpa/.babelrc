@@ -1,0 +1,25 @@
+{
+	"presets": [
+		// [
+		// 	"@babel/preset-env",
+		// 	{
+		// 		"targets": {
+		// 			"chrome": "49",
+		// 			"ios": "10"
+		// 		}
+		// 	}
+		// ],
+		// "@babel/preset-react",
+		// [
+		// 	"react-app",
+		// 	{
+		// 		"runtime": "automatic"
+		// 	}
+		// ]
+		"@babel/preset-env",
+		"@babel/preset-react",
+	],
+	"plugins": [
+		["import", { "libraryName": "antd-mobile", "libraryDirectory": "es/components", "style": false}]
+	]
+}

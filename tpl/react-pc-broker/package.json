@@ -1,0 +1,58 @@
+{
+  "name": "pc-broker",
+  "version": "0.1.0",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=dev happy-web-cli serve",
+    "start:test": "cross-env NODE_ENV=test happy-web-cli serve",
+    "build:dev": "cross-env NODE_ENV=dev happy-web-cli build",
+    "build:test": "cross-env NODE_ENV=test happy-web-cli build",
+    "build:prod": "cross-env NODE_ENV=prod happy-web-cli build"
+  },
+  "dependencies": {
+    "antd": "^4.20.1",
+    "array-move": "^3.0.1",
+    "axios": "^0.26.1",
+    "camelcase": "^6.1.0",
+    "dayjs": "^1.10.4",
+    "echarts": "^5.0.2",
+    "echarts-for-react": "^3.0.1",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "qs": "^6.10.1",
+    "react": "^18.0.0",
+    "react-app-polyfill": "^2.0.0",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.0.0",
+    "react-draggable-tags": "^1.0.2",
+    "react-error-overlay": "6.0.9",
+    "react-intl": "^5.24.6",
+    "react-refresh": "^0.8.3",
+    "react-router-cache-route": "^1.11.0",
+    "react-router-dom": "^6.3.0",
+    "react-sortable-hoc": "^2.0.0",
+    "web-vitals": "^1.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie > 9"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie > 9"
+    ]
+  },
+  "devDependencies": {
+    "happy-web-cli": "^1.0.0",
+    "cross-env": "^7.0.3"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  }
+}

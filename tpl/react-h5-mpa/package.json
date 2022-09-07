@@ -1,0 +1,47 @@
+{
+  "name": "aus-h5",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ahooks": "^3.1.13",
+    "antd-mobile": "^5.4.0",
+    "axios": "^0.26.1",
+    "blueimp-md5": "^2.19.0",
+    "classnames": "^2.3.1",
+    "dayjs": "^1.10.8",
+    "js-cookie": "^3.0.1",
+    "lottie-web": "^5.9.1",
+    "query-string": "^7.1.1",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^3.0.0",
+    "react-dom": "^17.0.2",
+    "react-intl": "^5.24.6",
+    "react-refresh": "^0.11.0",
+    "tailwindcss": "^3.0.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=dev happy-web-cli serve",
+    "start:test": "cross-env NODE_ENV=test happy-web-cli serve",
+    "build:dev": "cross-env NODE_ENV=dev happy-web-cli build",
+    "build:test": "cross-env NODE_ENV=test happy-web-cli build",
+    "build:prod": "cross-env NODE_ENV=prod node webpack/build.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "happy-web-cli": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "vconsole": "^3.12.1"
+  }
+}

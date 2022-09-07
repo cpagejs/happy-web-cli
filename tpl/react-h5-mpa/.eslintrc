@@ -1,0 +1,12 @@
+{
+	"extends": [
+		"react-app",
+	],
+	"globals": {
+		"NODE_ENV": true
+	},
+	"rules": {
+		"no-unused-vars": 0,
+		"react/jsx-no-undef": 0
+	}
+}
