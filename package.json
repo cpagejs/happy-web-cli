@@ -11,7 +11,13 @@
     "build": "webpack --config webpack/webpack.prd.js",
     "fix": "prettier --write src/ & eslint --fix src/"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "CLI",
+    "react cli",
+    "web cli",
+    "happy-web-cli"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
