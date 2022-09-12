@@ -1,0 +1,27 @@
+{
+  "name": "cpagejs",
+  "version": "1.0.0",
+  "description": "使用cpage.js开发的项目",
+  "scripts": {
+    "start": "webpack-dev-server --content-base ./dist",
+    "build": "webpack -p"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cpage": "^1.2.2",
+    "project-libs": "^1.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "loglevel": "^1.6.6",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}

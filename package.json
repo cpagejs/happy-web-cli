@@ -1,6 +1,6 @@
 {
   "name": "happy-web-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "web项目脚手架",
   "main": "./bin/index.js",
   "bin": {
@@ -16,7 +16,9 @@
     "CLI",
     "react cli",
     "web cli",
-    "happy-web-cli"
+    "happy-web-cli",
+    "cpage cli",
+    "cpagejs cli"
   ],
   "author": "",
   "license": "ISC",
